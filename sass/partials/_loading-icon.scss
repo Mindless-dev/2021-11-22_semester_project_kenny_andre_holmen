@@ -1,0 +1,17 @@
+.loadingIcon {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-size: 4em;
+  i {
+    animation-name: loading;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+}
+
+@keyframes loading {
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,45 @@
+.logo {
+  font-family: "Pacifico", cursive;
+}
+
+h1,
+h2,
+h3,
+a,
+button {
+  font-family: "Cairo", sans-serif;
+  font-weight: 300;
+}
+
+label,
+button,
+p {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.active {
+  font-weight: 700;
+}
+
+h1 {
+  text-align: center;
+  font-size: 38px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.noItemsInCart {
+  text-align: center;
+}
+
+.featuredProductsH2 {
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.product > h3,
+.featuredProduct > h3 {
+  font-size: 1.3em;
+}

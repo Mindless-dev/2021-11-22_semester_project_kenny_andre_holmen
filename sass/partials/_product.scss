@@ -1,0 +1,140 @@
+.featuredProduct {
+  max-width: 330px;
+  height: 450px;
+}
+
+.featuredProduct,
+.product,
+.productInCart,
+.modalContent,
+.individualProduct {
+  background-color: getColour(primary);
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  border-radius: 16px;
+  box-shadow: 0px 3px 6px #00000029;
+
+  img {
+    width: 100%;
+  }
+}
+
+.individualProduct {
+  max-width: 1120px;
+  margin: 10px;
+  @media (min-width: 600px) {
+    margin: 20px auto;
+  }
+}
+
+.product {
+  width: 310px;
+  height: 400px;
+}
+
+.productInCart {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  position: relative;
+  align-self: center;
+
+  img,
+  a {
+    width: 300px;
+    height: 180px;
+  }
+
+  @media (min-width: 600px) {
+    align-self: normal;
+    flex-direction: row;
+    max-width: 1220px;
+  }
+}
+
+.productInCart > #removeFromCart {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+
+.cartProductDescription {
+  margin: 20px;
+  p,
+  h2 {
+    margin: 0px;
+  }
+}
+
+.featuredProduct > .description,
+.product > .description {
+  display: flex;
+}
+
+.description > button,
+.description > p,
+.product > h3,
+.featuredProduct > h3 {
+  margin-left: 20px;
+}
+
+//modal styling
+
+.modalContent {
+  position: relative;
+  max-width: 800px;
+  margin: 10px;
+  @media (min-width: 800px) {
+    margin: auto;
+  }
+}
+
+#closeModal {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 60px;
+  background-color: getColour(primary);
+}
+
+//individual product
+
+.productInfo {
+  padding: 1.4em 2em;
+
+  label {
+    font-size: 1.1em;
+  }
+}
+
+.individualProduct > .productInfo {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.priceCart {
+  display: flex;
+  p {
+    margin-right: 10px;
+  }
+}
+
+.individualProduct {
+  h1 {
+    text-align: left;
+    margin: 10px 0px 0px 0px;
+  }
+  p {
+    max-width: 850px;
+  }
+}

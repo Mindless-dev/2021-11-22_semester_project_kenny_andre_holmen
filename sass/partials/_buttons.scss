@@ -1,0 +1,139 @@
+.iconButton,
+.addtoCart,
+#removeFromCart,
+#closeModal,
+.addToCart {
+  background: none;
+  border: none;
+  color: #282828;
+}
+.nav-toggle {
+  font-size: 1.8em;
+  float: right;
+  margin: 10px 10px 10px 25px;
+  @media (min-width: 700px) {
+    display: none;
+  }
+}
+
+#modalBtn,
+.addToCart,
+.addtoCart,
+#closeModal,
+#removeFromCart {
+  font-size: 1.9em;
+}
+
+.removeAllItems {
+  background-color: getColour(secondary);
+  border: none;
+  font-size: 1.2em;
+  padding: 1em;
+  width: 250px;
+  border-radius: 26px;
+  box-shadow: 0px 3px 6px #00000029;
+  &:hover {
+    background-color: darken(getColour(secondary), 10);
+  }
+}
+
+#upload_widget1,
+#upload_widget2,
+.formSubmit,
+.viewAll > a,
+#previousPage,
+#logout,
+#deleteProduct,
+#edit {
+  background-color: getColour(secondary);
+  border: none;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 26px;
+
+  &:hover {
+    background-color: darken(getColour(secondary), 10);
+  }
+}
+
+select {
+  background-color: white;
+  border: none;
+  font-size: 19px;
+  min-width: 60px;
+  text-align: center;
+}
+
+.viewAll > a,
+#previousPage,
+#logout,
+.formSubmit {
+  padding: 0.5em 1em;
+  margin: 20px auto;
+  font-size: 1.2em;
+}
+
+.formSubmit {
+  display: flex;
+}
+
+#previousPage {
+  margin-left: 10px;
+
+  @media (min-width: 1200px) {
+    margin-left: 60px;
+  }
+}
+
+#logout {
+  margin: 10px;
+  max-width: 180px;
+}
+
+#deleteProduct,
+#edit {
+  width: 200px;
+  height: 50px;
+  margin: 10px auto;
+}
+
+#upload_widget1,
+#upload_widget2 {
+  min-width: 180px;
+  height: 60px;
+  margin: 10px auto;
+}
+
+.buttonGroup {
+  margin: auto;
+
+  button {
+    width: 100px;
+    height: 60px;
+    margin: 10px;
+    border: none;
+  }
+
+  button,
+  a {
+    margin: 10px;
+    background-color: getColour(secondary);
+    border-radius: 26px;
+    font-size: 16px;
+  }
+
+  a {
+    padding: 15px 30px;
+  }
+}
+
+.buttonGroup > a:hover,
+.buttonGroup > button:hover {
+  background-color: darken(getColour(secondary), 10);
+}
+
+.forgottenPassword {
+  margin-left: 16px;
+}
+.forgottenPassword:hover {
+  text-decoration: underline;
+}

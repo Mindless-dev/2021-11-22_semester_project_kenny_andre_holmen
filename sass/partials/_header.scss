@@ -1,0 +1,79 @@
+header {
+  background-color: getColour(primary);
+}
+
+.navContainer {
+  @media (min-width: 699px) {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1800px;
+    margin: auto;
+  }
+}
+.logo {
+  margin: 0px 10px 10px 10px;
+  font-size: 2rem;
+  display: inline-block;
+  transform: rotate(-5deg);
+
+  @media (min-width: 699px) {
+    margin-top: 10px;
+  }
+}
+
+.logo,
+a {
+  color: black;
+  text-decoration: none;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  margin: 0px;
+  background-color: darken(getColour(primary), 10);
+  ul {
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+  }
+  .nav-toggle {
+    float: right;
+  }
+
+  @media (min-width: 699px) {
+    position: relative;
+    background-color: getColour(primary);
+  }
+}
+
+.hidden {
+  @media (max-width: 699px) {
+    display: none;
+  }
+}
+
+nav > ul > li {
+  font-size: 1.2em;
+  margin: 5px;
+  @media (min-width: 699px) {
+    margin: 5px 15px;
+  }
+}
+
+.activeCart {
+  padding: 0.3em 0.8em;
+  border: solid 1px black;
+}
+
+nav > ul {
+  @media (min-width: 699px) {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+  }
+}
+
+nav > ul > li:hover {
+  text-decoration: underline;
+}

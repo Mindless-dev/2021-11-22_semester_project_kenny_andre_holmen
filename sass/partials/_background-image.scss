@@ -1,0 +1,21 @@
+.heroImage,
+.aboutusimage {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.heroImage {
+  height: 600px;
+  @media (min-width: 1600px) {
+    height: 740px;
+  }
+}
+.aboutusimage {
+  background-image: url("../../images/backgroundimages/aboutusimage.jpg");
+  height: 840px;
+}
+
+body {
+  background-image: url("../images/textures/whitetexturedbackground.jpg");
+}
