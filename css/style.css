@@ -48,7 +48,8 @@ button {
 
 label,
 button,
-p {
+p,
+input {
   font-family: "Noto Sans", sans-serif;
 }
 
@@ -195,7 +196,7 @@ nav > ul > li:hover {
 
 .featuredProduct {
   max-width: 330px;
-  height: 450px;
+  height: 360px;
 }
 
 .featuredProduct,
@@ -238,7 +239,7 @@ nav > ul > li:hover {
 
 .product {
   width: 310px;
-  height: 400px;
+  height: 360px;
 }
 
 .productInCart {
@@ -463,7 +464,7 @@ nav > ul > li:hover {
   border: none;
   margin-bottom: 20px;
   border-radius: 26px;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 .createNewProduct label,
@@ -477,6 +478,11 @@ nav > ul > li:hover {
   height: 50px;
   width: 50px;
   margin-left: 10px;
+}
+
+.createNewProduct textarea,
+#updateProduct textarea {
+  font-size: 1.2em;
 }
 
 textarea,
