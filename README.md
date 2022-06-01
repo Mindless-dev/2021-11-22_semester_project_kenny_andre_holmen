@@ -66,8 +66,8 @@ Admin Users can log in and create, update and delete products of the page.
 ## Built With
 
 - [Html] (https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [Javascript](https://developer.mozilla.org/en-US/docs/Web/javascript)
-- [SCSS](https://sass-lang.com/)
+- [Javascript] (https://developer.mozilla.org/en-US/docs/Web/javascript)
+- [SCSS] (https://sass-lang.com/)
 - [Strapi] (https://docs.strapi.io/developer-docs/latest/getting-started/introduction.html)
 
 ## Getting Started
