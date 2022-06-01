@@ -84,7 +84,7 @@ git clone https://github.com/Mindless-dev/2021-11-22_semester_project_kenny_andr
 
 To preview the site use a preview extension:
 
-For Example: [liveServer] (https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+For Example: [liveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 ## Contributing
 
